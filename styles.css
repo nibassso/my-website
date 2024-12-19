@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  h1 {
+    margin: 0;
+  }
+  
+  /* Button styles for social media links */
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 20px;
+  }
+  .social-button {
+    padding: 0.8em 1.2em;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  .social-button:hover {
+    transform: scale(1.1);
+  }
+  .facebook {
+    background: linear-gradient(to right, #3b5998, #8b9dc3);
+  }
+  .youtube {
+    background: linear-gradient(to right, #ff0000, #ff7b7b);
+  }
+  .twitter {
+    background: linear-gradient(to right, #1da1f2, #a0d3f8);
+  }
+  .instagram {
+    background: linear-gradient(to right, #e1306c, #fd1d1d);
+  }
+  
+  /* Dark Mode styles */
+  .dark-mode {
+    background-color: #222;
+    color: white;
+  }
+  
+  /* Search Button */
+  .search-button {
+    background-color: #333;
+    color: white;
+    padding: 0.8em 1.2em;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  .search-button:hover {
+    background-color: #555;
+  }
+  
+  /* Language Button */
+  .language-button {
+    background-color: #222;
+    color: white;
+    padding: 0.8em 1.2em;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .language-button:hover {
+    background-color: #555;
+  }
+  
